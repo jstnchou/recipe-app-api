@@ -6,7 +6,7 @@ services:
   - docker
 
 before_install:
-  - echo 2021DNAjc!! | docker login --username justinchoucodex --password-stdin
+  - echo 2021DNAjc!! | docker login --username justinc@codexdna.com --password-stdin
 
 before_script: pip install docker-compose
 
